@@ -1,42 +1,26 @@
-# IPL-Auction-Buys
+# BlackJack-Game
 
 ## Description
-A website built for IPL teams to keep track of the players they've bought. This was built as part of GDSC's 2 day Javascript workshop.
+This project is a simple implementation of the classic card game Blackjack using basic HTML, CSS, and JavaScript. The game is designed to be played in a web browser, providing an interactive and user-friendly interface for players to enjoy.
 
-## Installation steps
+##Features
+User-Friendly Interface: The game interface is simple and intuitive, making it easy for players of all levels to enjoy.
+Basic Gameplay Mechanics: The game includes essential Blackjack rules, such as hitting, standing, and busting.
+Randomized Card Drawing: Cards are drawn randomly to simulate real-life gameplay.
+Score Tracking: The game tracks the player's scores to determine the winner.
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/sikehish/IPL-Auction-Buys.git
-    ```
+##How to Play
+Start the Game: Load the game in your web browser.
+Deal: Click the "Deal" button to start a new round. Both the player and the dealer will receive two cards each.
+Hit or Stand: Choose to "Hit" (draw another card) or "Stand" (keep your current hand).
+Winning: The goal is to get as close to 21 as possible without exceeding it. If your hand is closer to 21 than the dealer's, or if the dealer busts, you win!
+Restart: After the round ends, you can click "Restart" to play another round.
 
-2. Navigate into the project directory:
-    ```bash
-    cd IPL-Auction-Buys
-    ```
+##Files
+BJ.html: The main HTML file that structures the web page.
+blackjackstyle.css: The CSS file for styling the game interface.
+BJ-script.js: The JavaScript file containing the game logic.
 
-3. Choose the branch you want to work with:
-    ```bash
-    git checkout branch-name
-    ```
-    Replace `branch-name` with the name of the branch you want to check out, such as `1-starter` or `main`.
-
-4. Run a development server:
-   
-   - **Using Live Server (Visual Studio Code extension)**:
-     - If you're using Visual Studio Code, you can install the Live Server extension.
-     - Right-click on the `index.html` file in the project directory and select "Open with Live Server".
-   
-   - **Using Python's built-in HTTP server**:
-     ```bash
-     python -m http.server
-     ```
-     This will start a development server hosting your project. You can then access it in your web browser at `http://localhost:8000` or a similar address provided by the server.
-   
-   - **Using Node.js's http-server package** (if Node.js is installed):
-     ```bash
-     npm install -g http-server
-     http-server
-     ```
-     This will start a development server hosting your project. You can then access it in your web browser at `http://localhost:8080` or a similar address provided by the server.
-
+##Future Enhancements
+Add a betting system to increase the challenge.
+Implement additional game features like splitting and doubling down.
