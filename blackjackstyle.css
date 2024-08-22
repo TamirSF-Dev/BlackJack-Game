@@ -1,0 +1,30 @@
+h1{
+    color: goldenrod;
+    font-size: 100px;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(Photos/green_background.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+p{
+    font-size: 30px;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+#startGame, #newCard{
+    background: goldenrod;
+    width: 150px;
+    padding: 5px;
+    color: #016f32;
+    border: none;
+    border-radius: 2px;
+    margin: 5px;
+}
